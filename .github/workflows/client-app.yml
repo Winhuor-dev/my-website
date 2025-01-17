@@ -24,10 +24,10 @@ jobs:
           node-version: "20"
 
       - name: Install dependencies for camformant-client
-        run: yarn install
+        run: npm install
 
       - name: Build the Next.js project
-        run: yarn build
+        run: npm run build
 
   deploy:
     runs-on: ubuntu-latest
@@ -44,7 +44,7 @@ jobs:
           node-version: "20"
 
       - name: Install dependencies for camformant-client
-        run: yarn install
+        run: npm install
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4

@@ -28,6 +28,7 @@ export const AcmeLogo = () => {
         fill="currentColor"
         fillRule="evenodd"
       />
+      
     </svg>
   );
 };
